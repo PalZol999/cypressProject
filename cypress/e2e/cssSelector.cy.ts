@@ -1,7 +1,7 @@
 
 
 describe('fidn CSS element', ()=> {
-    beforeEach('open te url', ()=>{
+    beforeEach('open the url', ()=>{
         cy.visit("/dynamicid")
     })
     it('find the dynamic locator', ()=>{
