@@ -2,7 +2,7 @@ describe("Hover challenge", () =>{
     beforeEach(()=>{
         cy.visit("/mouseover")
     })
-    it('hover with cypress  workaround', ()=>{
+    it('hover with cypress workaround', ()=>{
         cy.get(".text-primary").trigger("mouseover")
     })
     it('hover with real-cypress', ()=>{

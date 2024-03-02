@@ -1,6 +1,6 @@
 
 
-describe('fidn CSS element', ()=> {
+describe('find CSS element', ()=> {
     beforeEach('open the url', ()=>{
         cy.visit("/dynamicid")
     })

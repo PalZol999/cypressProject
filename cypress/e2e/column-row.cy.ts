@@ -1,6 +1,6 @@
 /// <reference types="cypress-xpath" />
 
-describe("dynamic table challenge", ()=>{
+describe("dynamic tables challenge", ()=>{
     beforeEach("open the url", ()=>{
         cy.visit('/dynamictable')
     })

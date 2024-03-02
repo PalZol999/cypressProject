@@ -1,4 +1,4 @@
-describe('click challenge', ()=>{
+describe('click on challenge', ()=>{
     beforeEach(()=>{
         cy.visit("/click")
     })

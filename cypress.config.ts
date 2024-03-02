@@ -7,7 +7,7 @@ export default defineConfig({
       // implement node event listeners here
     },
     env: {
-      demoVar: "Hello from the other side",
+      demoVar: "Hello from the other",
       demoQA: "https://demoqa.com/",
       theInternet: "https://the-internet.herokuapp.com/",
       Angular: "https://www.globalsqa.com/"

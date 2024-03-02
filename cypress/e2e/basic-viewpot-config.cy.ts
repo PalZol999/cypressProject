@@ -9,7 +9,7 @@ describe("viewport demo", ()=>{
 
     })
     it("spec viewport", () =>{
-        cy.viewport(500,600)  //the the scale of the view
+        cy.viewport(500,601)  //the the scale of the view
         cy.get('#mobile_menu_toggler').should('be.visible')
     })
 })

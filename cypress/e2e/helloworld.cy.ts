@@ -1,6 +1,6 @@
 describe('template spec', () => {
   before(()=>{                            // only appears on the begin - no repeat
-    cy.log("Hello from the before hook")
+    cy.log("Hello from the before hooks")
   })
   beforeEach(()=>{                         //  appears on the begin - repeat
     cy.log("Before each hook")

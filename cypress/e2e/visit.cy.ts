@@ -17,7 +17,7 @@ describe('basic', () => {
      
       })
     */
-    it("title validation", ()=>{
+    it("title validation of", ()=>{
         cy.title().then((title)=>{
             expect(title).to.be.equal("Text Input")
         })
